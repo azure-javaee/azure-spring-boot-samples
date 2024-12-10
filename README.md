@@ -10,6 +10,8 @@ to see how to test it.
  - [x] mysql
    - [x] spring-cloud-azure-starter-jdbc-mysql
      - [x] [spring-cloud-azure-mysql-sample](mysql/spring-cloud-azure-starter-jdbc-mysql/spring-cloud-azure-mysql-sample) (@rujche validated)
-
+ - [ ] postgres
+   - [ ] spring-cloud-azure-starter-jdbc-postgresql
+     - [ ] spring-cloud-azure-postgresql-sample (@rujche is working on it)
 
 
