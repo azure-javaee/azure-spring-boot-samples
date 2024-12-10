@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    generate-ddl: true
+  datasource:
+    azure:
+      passwordless-enabled: true
+    url:
+    username:
+  sql:
+    init:
+      mode: always

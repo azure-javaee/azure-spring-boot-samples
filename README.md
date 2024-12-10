@@ -7,9 +7,9 @@ to see how to test it.
 
 ## Sample list
 
- - [ ] mysql
-   - [ ] spring-cloud-azure-starter-jdbc-mysql
-     - [ ] spring-cloud-azure-mysql-sample (@rujche working on this)
+ - [x] mysql
+   - [x] spring-cloud-azure-starter-jdbc-mysql
+     - [x] [spring-cloud-azure-mysql-sample](mysql/spring-cloud-azure-starter-jdbc-mysql/spring-cloud-azure-mysql-sample) (@rujche validated)
 
 
 

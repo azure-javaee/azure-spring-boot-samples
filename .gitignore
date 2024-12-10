@@ -441,3 +441,8 @@ terraform.rc
 **/application-develop.yaml
 
 .history/
+
+# azd realted files
+**/.azure
+**/azure.yaml
+**/next-steps.md
