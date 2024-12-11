@@ -18,5 +18,6 @@ to see how to test it.
    - [ ] spring-cloud-azure-postgresql-sample (@rujche is working on it)
   
 - [ ] eventhubs (@haozhan is working on it)
+- [ ] servicebus (@saragluna is working on it)
 
 
