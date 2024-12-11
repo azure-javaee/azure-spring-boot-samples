@@ -16,5 +16,7 @@ to see how to test it.
 - [ ] postgres
    - [ ] spring-cloud-azure-starter-jdbc-postgresql
    - [ ] spring-cloud-azure-postgresql-sample (@rujche is working on it)
+  
+- [ ] eventhubs (@haozhan is working on it)
 
 
