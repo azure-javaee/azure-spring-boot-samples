@@ -14,7 +14,7 @@ to see how to test it.
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./mysql/spring-cloud-azure-starter-jdbc-mysql/spring-petclinic)
       - [x] Auth by userAssignedManagedIdentity (@rujche: Validation passed)
-      - [x] Auth by password (@rujche is validating this case.)
+      - [x] Auth by password (@rujche: Validation passed)
 
 - [ ] postgresql
   - [ ] spring-cloud-azure-starter-jdbc-postgresql
