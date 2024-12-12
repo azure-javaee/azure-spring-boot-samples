@@ -41,3 +41,7 @@ to see how to test it.
       - [x] Auth by connectionString
 
 - [ ] servicebus (@saragluna is working on it)
+  - [ ] IsJMS = false
+    - [x] [lower-case-to-upper-case-sample](./servicebus/lower-case-to-upper-case-sample)
+      - [x] Auth by userAssignedManagedIdentity
+      - [x] Auth by connectionString
