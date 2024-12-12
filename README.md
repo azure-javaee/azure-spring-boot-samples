@@ -26,7 +26,7 @@ to see how to test it.
       - [x] Auth by password (@rujche: Validation passed)
 
 - [x] mongo
-  - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca) (@rujche will validate this case.)
+  - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca) (@rujche: Validation passed)
 
 - [x] cosmos
   - [x] [cosmos-sample](./cosmos/cosmos-sample) (@rujche will validate this case.)
