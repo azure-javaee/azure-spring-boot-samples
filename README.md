@@ -35,5 +35,9 @@ to see how to test it.
   - [x] [redis-sample](./redis/redis-sample)
 
 - [ ] eventhubs (@haozhan is working on it)
+  - [ ] IsKafka = false
+    - [x] [eventhubs-sample](./eventhubs/eventhubs-sample)
+      - [x] Auth by userAssignedManagedIdentity
+      - [x] Auth by connectionString
 
 - [ ] servicebus (@saragluna is working on it)
