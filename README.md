@@ -45,3 +45,7 @@ to see how to test it.
     - [x] [lower-case-to-upper-case-sample](./servicebus/lower-case-to-upper-case-sample)
       - [x] Auth by userAssignedManagedIdentity
       - [x] Auth by connectionString
+  - [ ] IsJMS = true
+    - [x] [todo-java-mongo-aca](./servicebus/todo-java-mongo-aca)
+      - [x] Auth by userAssignedManagedIdentity
+      - [x] Auth by connectionString
