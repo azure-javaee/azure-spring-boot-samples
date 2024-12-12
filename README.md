@@ -24,7 +24,10 @@ to see how to test it.
     - [x] [spring-petclinic](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-petclinic)
       - [x] Auth by userAssignedManagedIdentity
       - [x] Auth by password
-  
+
+- [x] mongo
+  - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca)
+
 - [ ] eventhubs (@haozhan is working on it)
 - [ ] servicebus (@saragluna is working on it)
 
