@@ -13,7 +13,7 @@ to see how to test it.
       - [ ] Auth by userAssignedManagedIdentity (@rujche: Validation failed with error like this: `Caused by: java.sql.SQLException: Access denied for user 'aad_springCloudAzureMysqlSampleMysql'@'xx.xxx.xxx.xxx' (using password: NO)`)
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./mysql/spring-cloud-azure-starter-jdbc-mysql/spring-petclinic)
-      - [x] Auth by userAssignedManagedIdentity (@rujche is validating this case.)
+      - [x] Auth by userAssignedManagedIdentity (@rujche: Validation passed)
       - [x] Auth by password (@rujche is validating this case.)
 
 - [ ] postgresql
@@ -34,7 +34,7 @@ to see how to test it.
 - [x] redis
   - [x] [redis-sample](./redis/redis-sample)
 
-- [ ] eventhubs (@haozhan is working on it)
+- [x] eventhubs (@haozhan is working on it)
   - [x] [eventhubs-sample](./eventhubs/eventhubs-sample)
     - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
     - [x] Auth by connectionString (@haozhan: Validation passed)
@@ -42,12 +42,12 @@ to see how to test it.
     - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
     - [x] Auth by connectionString (@haozhan: Validation passed)
 
-- [ ] servicebus (@saragluna is working on it)
-  - [ ] IsJMS = false
+- [x] servicebus (@saragluna is working on it)
+  - [x] IsJMS = false
     - [x] [lower-case-to-upper-case-sample](./servicebus/lower-case-to-upper-case-sample)
       - [x] Auth by userAssignedManagedIdentity
       - [x] Auth by connectionString
-  - [ ] IsJMS = true
+  - [x] IsJMS = true
     - [x] [todo-java-mongo-aca](./servicebus/todo-java-mongo-aca)
       - [x] Auth by userAssignedManagedIdentity
       - [x] Auth by connectionString
