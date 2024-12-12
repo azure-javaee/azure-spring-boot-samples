@@ -23,18 +23,18 @@ to see how to test it.
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-petclinic)
       - [x] Auth by userAssignedManagedIdentity (@rujche: Validation passed)
-      - [x] Auth by password (@rujche is validating this case.)
+      - [x] Auth by password (@rujche: Validation passed)
 
 - [x] mongo
-  - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca)
+  - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca) (@rujche will validate this case.)
 
 - [x] cosmos
-  - [x] [cosmos-sample](./cosmos/cosmos-sample)
+  - [x] [cosmos-sample](./cosmos/cosmos-sample) (@rujche will validate this case.)
 
 - [x] redis
-  - [x] [redis-sample](./redis/redis-sample)
+  - [x] [redis-sample](./redis/redis-sample) (@saragluna will validate this case.)
 
-- [x] eventhubs (@haozhan is working on it)
+- [x] eventhubs
   - [x] [eventhubs-sample](./eventhubs/eventhubs-sample)
     - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
     - [x] Auth by connectionString (@haozhan: Validation passed)
@@ -42,12 +42,12 @@ to see how to test it.
     - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
     - [x] Auth by connectionString (@haozhan: Validation passed)
 
-- [x] servicebus (@saragluna is working on it)
+- [x] servicebus
   - [x] IsJMS = false
     - [x] [lower-case-to-upper-case-sample](./servicebus/lower-case-to-upper-case-sample)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by connectionString
+      - [x] Auth by userAssignedManagedIdentity (@saragluna will validate this case.)
+      - [x] Auth by connectionString (@saragluna will validate this case.)
   - [x] IsJMS = true
     - [x] [todo-java-mongo-aca](./servicebus/todo-java-mongo-aca)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by connectionString
+      - [x] Auth by userAssignedManagedIdentity (@saragluna will validate this case.)
+      - [x] Auth by connectionString (@saragluna will validate this case.)
