@@ -48,6 +48,9 @@ to see how to test it.
       - [x] Auth by userAssignedManagedIdentity (@saragluna: validated ✅)
       - [x] Auth by connectionString (@saragluna: validated ✅)
   - [x] IsJMS = true
-    - [x] [todo-java-mongo-aca](./servicebus/todo-java-mongo-aca)
-      - [x] Auth by userAssignedManagedIdentity (@saragluna will validate this case.)
-      - [x] Auth by connectionString (@saragluna will validate this case.)
+    - [x] [servicebus-jms-queue](./servicebus/servicebus-jms-queue)
+      - [x] Auth by userAssignedManagedIdentity (@saragluna: validated ✅)
+      - [x] Auth by connectionString (@saragluna: validated ✅)
+    - [x] [servicebus-jms-topic](./servicebus/servicebus-jms-topic)
+      - [x] Auth by userAssignedManagedIdentity (@saragluna: validated ✅)
+      - [x] Auth by connectionString (@saragluna: validated ✅)
