@@ -31,7 +31,9 @@ to see how to test it.
 - [x] cosmos
   - [x] [cosmos-sample](./cosmos/cosmos-sample)
 
+- [x] redis
+  - [x] [redis-sample](./redis/redis-sample)
+
 - [ ] eventhubs (@haozhan is working on it)
+
 - [ ] servicebus (@saragluna is working on it)
-
-
