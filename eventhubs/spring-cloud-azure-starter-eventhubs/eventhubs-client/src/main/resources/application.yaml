@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    azure:
+      eventhubs:
+        namespace: evhns-sgk76kfznouag
+        event-hub-name: sample-topic
+        consumer:
+          consumer-group: $Default
