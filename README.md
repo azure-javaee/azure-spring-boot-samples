@@ -22,7 +22,7 @@ to see how to test it.
       - [ ] Auth by userAssignedManagedIdentity (@rujche: Validation failed with error like this: `The access token does not have a valid audience claim. Please acquire a new token for the resource "https://ossrdbms-aad.database.windows.net".`)
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-petclinic)
-      - [x] Auth by userAssignedManagedIdentity (@rujche is validating this case.)
+      - [x] Auth by userAssignedManagedIdentity (@rujche: Validation passed)
       - [x] Auth by password (@rujche is validating this case.)
 
 - [x] mongo
