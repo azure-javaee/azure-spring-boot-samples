@@ -35,14 +35,12 @@ to see how to test it.
   - [x] [redis-sample](./redis/redis-sample)
 
 - [ ] eventhubs (@haozhan is working on it)
-  - [ ] IsKafka = false
-    - [x] [eventhubs-sample](./eventhubs/eventhubs-sample)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by connectionString
-  - [ ] IsKafka = true
-    - [x] [kafka-sample](./eventhubs/kafka-sample)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by connectionString
+  - [x] [eventhubs-sample](./eventhubs/eventhubs-sample)
+    - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
+    - [x] Auth by connectionString (@haozhan: Validation passed)
+  - [x] [kafka-sample](./eventhubs/kafka-sample)
+    - [x] Auth by userAssignedManagedIdentity (@haozhan: Validation passed)
+    - [x] Auth by connectionString (@haozhan: Validation passed)
 
 - [ ] servicebus (@saragluna is working on it)
   - [ ] IsJMS = false
