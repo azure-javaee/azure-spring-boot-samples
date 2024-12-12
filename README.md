@@ -28,6 +28,9 @@ to see how to test it.
 - [x] mongo
   - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca)
 
+- [x] cosmos
+  - [x] [cosmos-sample](./cosmos/cosmos-sample)
+
 - [ ] eventhubs (@haozhan is working on it)
 - [ ] servicebus (@saragluna is working on it)
 
