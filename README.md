@@ -29,7 +29,7 @@ to see how to test it.
   - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca) (@rujche: Validation passed)
 
 - [x] cosmos
-  - [x] [cosmos-sample](./cosmos/cosmos-sample) (@rujche will validate this case.)
+  - [x] [cosmos-sample](./cosmos/cosmos-sample) (@rujche: Validation passed)
 
 - [x] redis
   - [x] [redis-sample](./redis/redis-sample) (@saragluna will validate this case.)
