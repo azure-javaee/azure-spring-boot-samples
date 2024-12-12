@@ -13,8 +13,8 @@ to see how to test it.
       - [ ] Auth by userAssignedManagedIdentity (@rujche: Validation failed with error like this: `Caused by: java.sql.SQLException: Access denied for user 'aad_springCloudAzureMysqlSampleMysql'@'xx.xxx.xxx.xxx' (using password: NO)`)
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./mysql/spring-cloud-azure-starter-jdbc-mysql/spring-petclinic)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by password
+      - [x] Auth by userAssignedManagedIdentity (@rujche is validating this case.)
+      - [x] Auth by password (@rujche is validating this case.)
 
 - [ ] postgresql
   - [ ] spring-cloud-azure-starter-jdbc-postgresql
@@ -22,8 +22,8 @@ to see how to test it.
       - [ ] Auth by userAssignedManagedIdentity (@rujche: Validation failed with error like this: `The access token does not have a valid audience claim. Please acquire a new token for the resource "https://ossrdbms-aad.database.windows.net".`)
       - [x] Auth by password (@rujche: Validation passed)
     - [x] [spring-petclinic](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-petclinic)
-      - [x] Auth by userAssignedManagedIdentity
-      - [x] Auth by password
+      - [x] Auth by userAssignedManagedIdentity (@rujche is validating this case.)
+      - [x] Auth by password (@rujche is validating this case.)
 
 - [x] mongo
   - [x] [todo-java-mongo-aca](./mongo/todo-java-mongo-aca)
