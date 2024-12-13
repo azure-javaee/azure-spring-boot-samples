@@ -2,7 +2,7 @@ spring:
   cloud:
     azure:
       eventhubs:
-        namespace: evhns-sgk76kfznouag
-        event-hub-name: sample-topic
+        namespace: ${AZURE_EVENTHUBS_NAMESPACE}
+        event-hub-name: ${AZURE_EVENTHUB_NAME}
         consumer:
           consumer-group: $Default
