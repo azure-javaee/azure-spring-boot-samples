@@ -1,0 +1,3 @@
+spring:
+  kafka:
+    bootstrap-servers: evhns-fzgdhkc25e3jm.servicebus.windows.net:9093

@@ -68,9 +68,9 @@ to see how to test it.
       - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
       - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
   - spring-kafka
-    - spring-kafka
-      - Auth by userAssignedManagedIdentity (@haozhan: is validating)
-      - Auth by connectionString (@haozhan: is validating)
+    - [spring-kafka-sample](./eventhubs/spring-kafka-sample)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
 
 
 - servicebus
