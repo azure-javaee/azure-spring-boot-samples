@@ -1,6 +1,6 @@
 ## Verify
 
-1. can add env to change spring profile
+1. can change spring profile
 
 ## Problems
 
