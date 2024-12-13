@@ -1,8 +1,3 @@
-## Verify
-
-1. `azd init`
-3. `azd up`
-
 ## Problems
 
 1. cannot resolve placeholder in application.yml
