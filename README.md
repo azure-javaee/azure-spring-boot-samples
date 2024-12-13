@@ -35,36 +35,43 @@ to see how to test it.
   - ✅ [redis-sample](./redis/redis-sample) (@saragluna: validated)
 
 - eventhubs
-  - [eventhubs-sample](./eventhubs/eventhubs-sample)
-    - ✅ Auth by userAssignedManagedIdentity (@haozhan: validated)
-    - ✅ Auth by connectionString (@haozhan: validated)
-  - [kafka-sample](./eventhubs/kafka-sample)
-    - ✅ Auth by userAssignedManagedIdentity (@haozhan: validated)
-    - ✅ Auth by connectionString (@haozhan:  validated)
-  - [spring-cloud-azure-eventhubs-starter](./eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
-  - [spring-messaging-azure-eventhubs](./eventhubs/spring-messaging-azure-eventhubs/eventhubs-spring-messaging)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
-  - [spring-cloud-azure-starter-integration-eventhubs](./eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
-  - [spring-cloud-azure-stream-binder-eventhubs](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
-  - [spring-cloud-azure-stream-multi-binder-eventhubs-spring3](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders/spring3sample)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
-  - [spring-cloud-azure-stream-multi-binder-eventhubs-spring2](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders/spring2sample)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+  - spring-cloud-azure-stream-binder-eventhubs
+    - [eventhubs-sample](./eventhubs/eventhubs-sample)
+      - ✅ Auth by userAssignedManagedIdentity (@haozhan: validated)
+      - ✅ Auth by connectionString (@haozhan: validated)
+    - [spring-cloud-azure-stream-binder-eventhubs](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+    - [spring-cloud-azure-stream-multi-binder-eventhubs-spring3](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders/spring3sample)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+    - [spring-cloud-azure-stream-multi-binder-eventhubs-spring2](./eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders/spring2sample)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+  - spring-cloud-starter-stream-kafka
+    - [kafka-sample](./eventhubs/kafka-sample)
+      - ✅ Auth by userAssignedManagedIdentity (@haozhan: validated)
+      - ✅ Auth by connectionString (@haozhan:  validated)
+    - [spring-cloud-stream-binder-kafka](./eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+  - spring-cloud-azure-starter-eventhubs
+    - [spring-cloud-azure-eventhubs-starter](./eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+  - spring-messaging-azure-eventhubs
+    - [spring-messaging-azure-eventhubs](./eventhubs/spring-messaging-azure-eventhubs/eventhubs-spring-messaging)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+  - spring-cloud-azure-starter-integration-eventhubs
+    - [spring-cloud-azure-starter-integration-eventhubs](./eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
+      - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
+      - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
   - spring-kafka
-    - Auth by userAssignedManagedIdentity (@haozhan: is validating)
-    - Auth by connectionString (@haozhan: is validating)
-  - [spring-cloud-stream-binder-kafka](./eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
-    - ❌ Auth by userAssignedManagedIdentity (@haozhan: validation failed, see readme)
-    - ❌ Auth by connectionString (@haozhan: validation failed, see readme)
+    - spring-kafka
+      - Auth by userAssignedManagedIdentity (@haozhan: is validating)
+      - Auth by connectionString (@haozhan: is validating)
+
 
 - servicebus
   - IsJMS = false
