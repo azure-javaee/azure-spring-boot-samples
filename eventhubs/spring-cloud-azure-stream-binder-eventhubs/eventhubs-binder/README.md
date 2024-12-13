@@ -1,8 +1,6 @@
 ## Verify
 
-1. `azd init`
-2. add env to change spring profile
-3. `azd up`
+1. can add env to change spring profile
 
 ## Problems
 
