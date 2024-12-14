@@ -9,3 +9,6 @@ spring:
   sql:
     init:
       mode: always
+logging:
+  level:
+    com.azure.spring.cloud.autoconfigure.implementation.jdbc: DEBUG
