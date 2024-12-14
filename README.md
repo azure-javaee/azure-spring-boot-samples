@@ -19,7 +19,7 @@ to see how to test it.
 - postgresql
   - spring-cloud-azure-starter-jdbc-postgresql
     - [spring-cloud-azure-postgresql-sample](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-cloud-azure-postgresql-sample) 
-      - ❌ Auth by userAssignedManagedIdentity (@rujche: validation failed with error like this: `The access token does not have a valid audience claim. Please acquire a new token for the resource "https://ossrdbms-aad.database.windows.net".`)
+      - ✅ Auth by userAssignedManagedIdentity (@rujche: validated)
       - ✅ Auth by password (@rujche: validated)
     - [spring-petclinic](./postgresql/spring-cloud-azure-starter-jdbc-postgresql/spring-petclinic)
       - ✅ Auth by userAssignedManagedIdentity (@rujche: validated)
