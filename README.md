@@ -6,6 +6,7 @@ to see how to test it.
 
 
 ## Sample list
+- [Spring Petclinic Microservice](https://github.com/azure-javaee/spring-petclinic-microservices)
 
 - mysql
   - spring-cloud-azure-starter-jdbc-mysql
