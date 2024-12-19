@@ -5,17 +5,17 @@ spring:
     stream:
       bindings:
         consume1-in-0:
-          destination: eventhub01
+          destination: ${AZURE_EVENTHUB_NAME_01}
           group: $Default
         supply1-out-0:
-          destination: eventhub01
+          destination: ${AZURE_EVENTHUB_NAME_01}
         consume2-in-0:
           binder: eventhub-2
-          destination: eventhub02
+          destination: ${AZURE_EVENTHUB_NAME_02}
           group: $Default
         supply2-out-0:
           binder: eventhub-2
-          destination: eventhub02
+          destination: ${AZURE_EVENTHUB_NAME_02}
       binders:
         eventhub-1:
           type: eventhubs
@@ -28,7 +28,7 @@ spring:
                     namespace: evhns-fzgdhkc25e3jm
                     processor:
                       checkpoint-store:
-                        container-name: containerone
+                        container-name: ${AZURE_STORAGE_CONTAINER_NAME}
                         account-name: stfzgdhkc25e3jm
         eventhub-2:
           type: eventhubs
@@ -41,7 +41,7 @@ spring:
                     namespace: evhns-sgk76kfznouag
                     processor:
                       checkpoint-store:
-                        container-name: containertwo
+                        container-name: ${AZURE_STORAGE_CONTAINER_NAME}
                         account-name: stfzgdhkc25e3jm
       eventhubs:
         bindings:
