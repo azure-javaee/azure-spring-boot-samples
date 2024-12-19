@@ -21,7 +21,7 @@ public class SourceExample {
     private Sinks.Many<Message<String>> many;
 
     @PostMapping("/messages")
-    public String sendMessage(@RequestParam String message) {
+    public String sendMessage(@RequestParam("message") String message) {
         many.emitNext(new GenericMessage<>(message), Sinks.EmitFailureHandler.FAIL_FAST);
         return message;
     }
