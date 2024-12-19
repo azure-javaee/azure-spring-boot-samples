@@ -23,7 +23,7 @@ public class ImperativeEventProducerController {
     private StreamBridge streamBridge;
 
     @PostMapping("/messages/imperative")
-    public ResponseEntity<String> sendMessage(@RequestParam String message) {
+    public ResponseEntity<String> sendMessage(@RequestParam("message") String message) {
         LOGGER.info("Imperative method to send message: {} to static destination.", message);
         streamBridge.send("supply-out-0", message);
         LOGGER.info("Sent {}.", message);
