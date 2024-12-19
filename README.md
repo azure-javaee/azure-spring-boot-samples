@@ -86,3 +86,7 @@ to see how to test it.
     - [servicebus-jms-topic](./servicebus/servicebus-jms-topic)
       - ✅ Auth by userAssignedManagedIdentity (@saragluna: validated)
       - ✅ Auth by connectionString (@saragluna: validated)
+     
+- To verify
+  - [ ] https://github.com/mkyong/spring-boot/tree/master/spring-data-jpa-postgresql
+  - [ ] https://github.com/Azure-Samples/app-templates-java-openai-springapps
