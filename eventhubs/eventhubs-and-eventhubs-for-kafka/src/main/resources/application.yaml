@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    azure:
+      eventhubs:
+        namespace: evhns-tncoew3nc2j66
+        event-hub-name: eh1
+        consumer:
+          consumer-group: $Default
+  kafka:
+    bootstrap-servers: evhns-tncoew3nc2j66.servicebus.windows.net:9093
